@@ -3,7 +3,7 @@ var config = {
     context: __dirname + "/app",
     entry: [
         "webpack-dev-server/client?http://localhost:8080",
-        "./main.js"
+        "./app.js"
         ],
 
     output: {

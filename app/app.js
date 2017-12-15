@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-class Content extends React.Component{
+import Header from './Components/header/Header';
+class App extends React.Component{
     render(){
         return(
              <div>
                 <b>Congratulations</b>, You have successfully install project with webpack-dev-server
+                <Header/>
             </div>
         )
     }
 }
-ReactDOM.render(<Content />, document.getElementById('content'));
+ReactDOM.render(<App/>, document.getElementById('content'));
